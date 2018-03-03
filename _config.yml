@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: x100 ICO club
-email: your-email@example.com
-telegram-url: https://t.me/x100ico
+email: info@x100ico.club
+telegram-url: https://t.me/joinchat/IcbQrxL4oZupEKx5a1Xlcg
 github-url: https://github.com/btclexis/x100ico
 github-issues-url: https://github.com/btclexis/x100ico/issues
 google_analytics: 
@@ -28,7 +28,7 @@ ads:
   # large leaderboard expects size 970x90
   large_leaderboard_url:
 description: >- # this means to ignore newlines until "baseurl:"
-  x100 ICO Club это комьюнити, где мы совместными усилиями ищем то самое ICO, которое даст инвесторам x100
+  Совместно ищем ICO с потенциалом роста x100
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
