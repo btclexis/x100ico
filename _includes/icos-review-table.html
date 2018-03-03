@@ -1,0 +1,137 @@
+<div class="little-top-padded"></div>
+
+<div class="centered-container mobile-hidden">
+  <div class="ui horizontal small divided list">
+    <span class="item">
+      * Смарт контракт должен быть создан до начала ICO
+    </span>
+    <span class="item">
+      ** Работающий продукт должен быть доступен до начала ICO
+    </span>
+    <span class="item">
+      *** +2 года вестинг с 6+ месяцев клифф
+    </span>
+  </div>
+</div>
+
+<div class="only-mobile-visible">
+  <div>
+    * Смарт контракт должен быть создан до начала ICO
+  </div>
+  <div>
+    ** Работающий продукт должен быть доступен до начала ICO
+  </div>
+  <div>
+    *** +2 года вестинг с 6+ месяцев клифф
+  </div>
+</div>
+
+{% for ico in include.icos %}
+<table class="ui celled horizontal padded definition table only-device-visible">
+  <tbody>
+  <tr class="light-gray-background">
+    <td class="three wide">
+      Компания
+    </td>
+    {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Дата
+    </td>
+    {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Продукт**
+    </td>
+    {% include bool-cell.html value=ico.product %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Смарт Контракт*
+    </td>
+    {% include bool-cell.html value=ico.smart_contract %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Команда
+    </td>
+    {% include bool-cell.html value=ico.real_team %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Клиенты
+    </td>
+    {% include bool-cell.html value=ico.real_customers %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Прозрачность
+    </td>
+    {% include bool-cell.html value=ico.transparent %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Токенономика***
+    </td>
+    {% include bool-cell.html value=ico.tokenomics %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Юр. лицо
+    </td>
+    {% include bool-cell.html value=ico.have_company %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Локация
+    </td>
+    {% include flag-cell.html country=ico.location %}
+  </tr>
+  <tr>
+    <td class="three-wide">
+      Комменты
+    </td>
+    {% include comments-cell.html comments=ico.comments is-mobile=true github_issue=ico.issue_url %}
+  </tr>
+  </tbody>
+</table>
+{% endfor %}
+
+<table class="ui celled padded table device-hidden">
+  <thead>
+  <tr>
+    <th class="single line center aligned">Компания</th>
+    <th class="center aligned">Дата</th>
+    <th class="center aligned">Продукт**</th>
+    <th class="center aligned">Смарт Контракт*</th>
+    <th class="center aligned">Команда</th>
+    <th class="center aligned">Клиенты</th>
+    <th class="center aligned">Прозрачность</th>
+    <th class="center aligned">Токенономика***</th>
+    <th class="center aligned">Юр. лицо</th>
+    <th class="center aligned">Локация</th>
+    <th class="center aligned">Комменты</th>
+    
+  </tr>
+  </thead>
+  <tbody>
+
+  {% for ico in include.icos %}
+  <tr>
+    {% include company-cell.html name=ico.name url=ico.url image=ico.image %}
+    {% include ico-dates-cell.html start-date=ico.ico_start_date end-date=ico.ico_end_date %}
+    {% include bool-cell.html value=ico.product tooltip="Продукт" %}
+    {% include bool-cell.html value=ico.smart_contract tooltip="Смарт контракт" %}
+    {% include bool-cell.html value=ico.real_team tooltip="Команда" %}
+    {% include bool-cell.html value=ico.real_customers tooltip="Клиенты" %}
+    {% include bool-cell.html value=ico.transparent tooltip="Прозрачность" %}
+    {% include bool-cell.html value=ico.tokenomics tooltip="Токеномика" %}
+    {% include bool-cell.html value=ico.have_company tooltip="Юр. лицо" %}
+    {% include flag-cell.html country=ico.location %}
+    {% include comments-cell.html comments=ico.comments is-mobile=false github_issue=ico.issue_url %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>

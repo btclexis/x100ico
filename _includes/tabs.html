@@ -1,0 +1,34 @@
+<div class="only-mobile-visible">
+  <div class="ui right labeled icon top right pointing dropdown fluid primary button">
+    <span class="text">
+      {% if include.active-tab == 'active' %}
+        Активные и Предстоящие ICO
+      {% elsif include.active-tab == 'past' %}
+        Прошедшие ICO
+      {% else %}
+        В процессе проверки
+      {% endif %}
+    </span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="{% if include.active-tab == 'active' %}selected active{% endif %} item" href="/">
+        Активные и Предстоящие ICO
+      </a>
+      <a class="{% if include.active-tab == 'past' %}selected active{% endif %} item" href="/past">
+        Прошедшие ICO
+      </a>
+      <a class="{% if include.active-tab == 'in-review' %}selected active{% endif %} item" href="/in-review">
+        В процессе проверки
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="mobile-hidden">
+  <div class="ui top pointing secondary blue menu">
+    <a href="/" class="{% if include.active-tab == 'active' %}active{% endif %} item">Активные и Предстоящие ICO</a>
+    <a href="/past" class="{% if include.active-tab == 'past' %}active{% endif %} item">Прошедшие ICO</a>
+    <a href="/in-review" class="{% if include.active-tab == 'in-review' %}active{% endif %} item">В процессе проверки</a>
+  </div>
+</div>

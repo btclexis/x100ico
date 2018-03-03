@@ -1,0 +1,63 @@
+# For country names specify full name. All values available here: https://semantic-ui.com/elements/flag.html
+- name: GoNetwork
+  image: https://i.imgur.com/XhAQdHY.jpg
+  url: https://gonetwork.co/
+  real_team: true
+  real_customers: 
+  smart_contract: false
+  product: false
+  tokenomics: false
+  have_company: false
+  transparent: false
+  location: Canada
+  comments:
+    - content: Основатель не отвечает на вопросы инвесторов. Игнор.
+    - content: Со-основатель Xun Cai возможно не работает над проектов фултайм.
+  ico_start_date:
+  ico_end_date:
+  safe: false
+  issue_url: https://github.com/btclexis/x100ico/issues/#
+
+- name: YGGDRASH
+  image: https://i.imgur.com/jTpqWxB.jpg
+  url: https://yggdrash.io/
+  real_team:
+  real_customers: 
+  smart_contract:
+  product: false
+  tokenomics: false
+  have_company: true
+  transparent:
+  location: Singapore
+  comments:
+    - content: Проверить команду 
+    - content: Компания AKASHIC FOUNDATION LTD. зарегана в Сингапуре
+    - content: Релиз тестНета только в  Q3 2018 | MainNet в Q2 2019
+    - content: Вестинг для команды больше 1 года 
+    - content: Смарт контракт еще не написан 
+    - content: Пре-сейл 12го Марта - 16е Марта
+    - content: Основное ICO 19го Марта - 23е Марта
+  ico_start_date: 2018-03-12T11:00:00Z
+  ico_end_date: 2018-03-23T11:00:00Z
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/#
+  
+- name: Endor
+  image: https://i.imgur.com/JoIgfZZ.jpg
+  url: https://www.endor.com
+  real_team: true
+  real_customers: 
+  smart_contract:
+  product: false
+  tokenomics: false
+  have_company: true
+  transparent:
+  location: Gibraltar
+  comments:
+    - content: Продукт не имеет никакого отношения к блокчейн 
+    - content: Токеномика опубликована, но нет вестинга для команды и ключевых Адвизоров
+    - content: Только 20% токеновы веделили на  Private Sale и Crowd-Sale
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/#

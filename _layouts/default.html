@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include ad.html %}
+    {% include header.html %}
+
+    <div class="ui little-top-padded container">
+      <div class="centered-container">
+        <i class="huge blue search icon"></i>
+        <img src="/assets/logo_ico-check.svg" class="ui small image">
+      </div>
+      <h2 class="ui center aligned header little-top-padded">
+        Проверка и дью дилидженс ICO
+      </h2>
+      <p></p>
+    </div>
+
+    <div class="ui little-top-padded container">
+      <div class="ui internally celled very relaxed centered stackable middle aligned grid">
+        <div class="row">
+
+          <div class="five wide column">
+            <h3 class="ui header">
+              <i class="github icon"></i>
+              <div class="content">
+                <a href="{{ site.github-issues-url }}" target="_blank">
+                  Подробности о каждом ICO на GitHub
+                </a>
+                <div class="sub header">
+                  Каждому ICO соответствует отдельное Issue на GitHub-е, где мы пубилкуем актуальную информацию
+                </div>
+              </div>
+            </h3>
+          </div>
+
+          <div class="five wide column">
+            <h3 class="ui header">
+              <i class="telegram icon"></i>
+              <div class="content">
+                <a href="{{ site.telegram-url }}" target="_blank">
+                  Вступайте в наш Telegram
+                </a>
+                <div class="sub header">
+                  Обсуждайте инвестиционные возможности с сообществом
+                </div>
+              </div>
+            </h3>
+          </div>
+
+          <div class="five wide column">
+            <h3 class="ui header">
+              <i class="gift icon"></i>
+              <div class="content">
+                <a href="#donations">
+                  Поддержка проекта
+                </a>
+                <div class="sub header">
+                  Нравится то, что мы делаем? Поддержи нас
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="ui little-top-padded container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

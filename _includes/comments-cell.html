@@ -1,0 +1,27 @@
+{% if include.is-mobile %}
+<td class="center aligned">
+{% else %}
+<td>
+{% endif %}
+  {% if include.comments %}
+    <ul class="ui list">
+      {% for comment in include.comments %}
+          <li>
+            {% if comment.url %}
+              <a href="{{comment.url}}" target="_blank">
+                {{ comment.content }}
+              </a>
+            {% else %}
+              {{ comment.content }}
+            {% endif %}
+          </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+  <i class="large icon minus"></i>
+  {% endif %}
+
+  {% if include.github_issue %}
+  <a href="{{ include.github_issue }}" target="_blank" class="ui fluid primary button">Подробнее</a>
+  {% endif %}
+</td>

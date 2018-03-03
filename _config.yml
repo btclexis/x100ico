@@ -1,0 +1,52 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: x100 ICO club
+email: your-email@example.com
+telegram-url: https://t.me/x100ico
+github-url: https://github.com/btclexis/x100ico
+github-issues-url: https://github.com/btclexis/x100ico/issues
+google_analytics: 
+ads:
+  redirect_url:
+  # mobile leaderboard expects size 320x50
+  mobile_leaderboard_url:
+  # leaderboard expects size 728x90
+  leaderboard_url:
+  # large leaderboard expects size 970x90
+  large_leaderboard_url:
+description: >- # this means to ignore newlines until "baseurl:"
+  x100 ICO Club это комьюнити, где мы совместными усилиями ищем то самое ICO, которое даст инвесторам x100
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
