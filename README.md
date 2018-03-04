@@ -9,7 +9,7 @@
 
 ## Добавляем новое ICO на проверку 
 1. Проверяем есть ли это ICO уже у нас на сайте. Если нет, то создаем новый ISSUE и заполняем поля.
-2. Заполняем информацию из Шаблона [template](https://github.com/btclexis/x100ico/issues/blob/master/.github/issue_template.md). Примеры вопросов, которые нужно задавать в официальном телеграм чате компании, для проверки:
+2. Заполняем информацию из [Шаблона](https://github.com/btclexis/x100ico/blob/gh-pages/.github/issue_template.md). Примеры вопросов, которые нужно задавать в официальном телеграм чате компании, для проверки:
 - Do you have a working product available to test? Does somebody tested or reviewed it? If so please provide links.
 - Has the code for your product been published, and has is it been audited by an independent cybersecurity company?
 - Could I have a link to your github repo? Is it public?
