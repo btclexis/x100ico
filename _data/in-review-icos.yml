@@ -1,3 +1,4 @@
+# Указывай полные имя Стран. Все страны здесь: https://semantic-ui.com/elements/flag.html
 - name: TxHash
   image: https://i.imgur.com/uNPUR7c.png
   url: https://txhash.com/
@@ -14,43 +15,8 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/4
 
-- name: Block Collider
-  image: https://i.imgur.com/CipbP8B.jpg
-  url: https://www.blockcollider.org/
-  real_team:
-  real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
-  transparent:
-  location:
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
-
-- name: Gluon
-  image: https://i.imgur.com/Pr6QKqD.png
-  url: https://www.gluon.com/
-  real_team: true
-  real_customers:
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
-  transparent:
-  location: United States
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
 
 - name: Nexo
   image: https://i.imgur.com/DrLqRYG.jpg
@@ -68,43 +34,8 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
 
-- name: Alchemint
-  image: https://i.imgur.com/HUSHnS5.jpg
-  url: http://alchemint.io/
-  real_team:
-  real_customers:
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
-  transparent:
-  location:
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
-
-- name: NKN
-  image: https://i.imgur.com/MNNLKbe.jpg
-  url: https://nkn.org/
-  real_team:
-  real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
-  transparent:
-  location:
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
 
 - name: Mainframe
   image: https://i.imgur.com/Ln6COOt.jpg
@@ -122,25 +53,8 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
 
-- name: Telegram TON
-  image: https://i.imgur.com/uJvbG04.png
-  url: https://telegram.org/
-  real_team: true
-  real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company: true
-  transparent:
-  location: British Virgin Islands
-  comments:
-    - content: Идет проверка
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
 
 - name: Origin Protocol
   image: https://i.imgur.com/ZzrzwEM.jpg
@@ -159,7 +73,7 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
 
 - name: Atonomi
   image: https://i.imgur.com/8kn8hF1.jpg
@@ -177,7 +91,7 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
 
 - name: NuCypher
   image: https://i.imgur.com/htSKE5A.png
@@ -196,25 +110,8 @@
   ico_start_date: 
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
 
-- name: DML
-  image: https://i.imgur.com/dmgmmlA.jpg
-  url: https://decentralizedml.com/
-  real_team: true
-  real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company: true
-  transparent:
-  location: Singapore
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe: false
-  issue_url: https://github.com/btclexis/x100ico/#
   
 - name: Seele
   image: https://i.imgur.com/JZXm0lQ.jpg
@@ -233,28 +130,6 @@
   ico_start_date:
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/#
-
-- name: Sentinel Chain
-  image: https://i.imgur.com/edGEqYY.png
-  url: https://sentinel-chain.org/
-  real_team: true
-  real_customers:
-  smart_contract:
-  product: false
-  tokenomics:
-  have_company: true
-  transparent:
-  location: Singapore
-  comments:
-    - content: Идет проверка
-    - content: Нет рабочего продукта
-    - content: Только в Q1-Q2 2019 году будет запуск тестовой сети Sentinel Chain v1.0
-    - content: Нет вестинга 
-    - content: Вайтлист закончился 26го Февраля 2018
-  ico_start_date: 2018-03-01T11:00:00Z
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/#
+  issue_url: https://github.com/btclexis/x100ico/issues/
   
   
