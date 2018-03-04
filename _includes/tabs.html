@@ -2,11 +2,11 @@
   <div class="ui right labeled icon top right pointing dropdown fluid primary button">
     <span class="text">
       {% if include.active-tab == 'in-review' %}
-        1й этап проверки
+        1й этап провекри
       {% elsif include.active-tab == 'active' %}
         2й этап провекри
       {% else %}
-        Приговор
+        Failed
       {% endif %}
     </span>
     <i class="dropdown icon"></i>
@@ -18,7 +18,7 @@
         2й этап проверки
       </a>
       <a class="{% if include.active-tab == 'past' %}selected active{% endif %} item" href="/past">
-        Приговор
+        Failed
       </a>
     </div>
   </div>
@@ -29,6 +29,6 @@
   <div class="ui top pointing secondary blue menu">
     <a href="/in-review" class="{% if include.active-tab == 'in-review' %}active{% endif %} item">1й этап проверки</a>
     <a href="/" class="{% if include.active-tab == 'active' %}active{% endif %} item">2й этап провекри</a>
-    <a href="/past" class="{% if include.active-tab == 'past' %}active{% endif %} item">Приговор</a>
+    <a href="/past" class="{% if include.active-tab == 'past' %}active{% endif %} item">Failed</a>
   </div>
 </div>
