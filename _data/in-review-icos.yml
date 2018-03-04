@@ -1,4 +1,96 @@
 # Указывай полные имя Стран. Все страны здесь: https://semantic-ui.com/elements/flag.html
+# 1й этап проверки
+
+- name: Endor
+  image: https://i.imgur.com/JoIgfZZ.jpg
+  url: https://www.endor.com
+  real_team: true
+  real_customers: 
+  smart_contract:
+  product: false
+  tokenomics: false
+  have_company: true
+  transparent:
+  location: Gibraltar
+  comments:
+    - content: Продукт не имеет никакого отношения к блокчейн. Не готов тестНет 
+    - content: Токеномика опубликована, но нет вестинга для команды и ключевых Адвизоров
+    - content: Только 20% токенов веделили на  Private Sale и Crowd-Sale
+  ico_start_date:
+  ico_end_date:
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/1
+
+- name: Metronome
+  image: https://cdn-images-1.medium.com/fit/c/200/200/1*2UJFsmiXEN6hvrkAdIqf7w.jpeg
+  url: https://www.metronome.io
+  real_team: true
+  real_customers: 
+  smart_contract: true
+  product: true
+  tokenomics: 
+  have_company: 
+  transparent: 
+  location: 
+  comments:
+    - content: +Сильная команда, со свездой-программистом Bitcoin Core Jeff Garzik
+    - content: +Основатели получают только токены, что должно потивировать их развивать проект
+    - content: +80% токенов идет в паблик и 20% фаундерам
+    - content: -Слабый RoadMap
+    - content: -Если правильно посчитать, то согласно WhitePaper ежегодно будет выпускаться 8.5%, а не заявленные 2%
+    - content: -Неясно, как ежедневные аукционы и автоматизированный конвертер будут действовать против токенов, по сравнению с размещением их по-стандарту на Биржах
+    - content: -Ежедневные аукционы могут быть восприимчивыми к ботам, предоставляя больше возможностей людям с более быстрыми ботами, что затрудняет получение токенов по разумной цене
+  ico_start_date: 2018-03-15T00:00:00Z
+  ico_end_date: 2018-03-26T00:00:00Z
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/
+
+
+- name: Nexo
+  image: https://i.imgur.com/DrLqRYG.jpg
+  url: https://nexo.io/
+  real_team: true
+  real_customers:
+  smart_contract: 
+  product: 
+  tokenomics: 
+  have_company: 
+  transparent: 
+  location: 
+  comments: 
+    - content: Идет проверка
+    - content: +Credissimo (дочерняя компания) существует с 2007, в таких стрнанах как Болгария, Румыния, Польша, Испания
+    - content: +В паблик отдают 70% токенов
+    - content: +в Белой бумаге прописана четкая бизнес модель, с дивидендами для держателей токенов
+    - content: -Credissimo похожа на микро-кредитную организацию, что может негативно восприниматься инвесторами
+    - content: -50млн HardCap, это перебор
+    - content: -в Белой Бумаге не поясняется что будет, если цена залоговых assets упадет ниже овердрафта
+    - content: -Проект говорит о своей команде, как о лидирующей в Европе в финтех секторе, однако они только покрывают 4 страны (Болгария, Румыния, Польша, Испания) и их оброт за 2017г довольно скромный ~30млн Евро
+  ico_start_date: 2018-04-1T00:00:00Z
+  ico_end_date: 2018-04-1T00:00:00Z
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/5
+
+- name: Cappasity
+  image: https://pbs.twimg.com/profile_images/933453208256688128/RA9KvGuV_bigger.jpg
+  url: https://cappasity.com/
+  real_team: true
+  real_customers: 
+  smart_contract: 
+  product: 
+  tokenomics: 
+  have_company: 
+  transparent: 
+  location: 
+  comments: 
+    - content: Идет проверка
+    - content: -У СТО проекта нет онлайн профилей. А в Телеграме СЕО отвечает, что СТО не публичная персона. Это недостаток проффессионализма, когда ты СТО компании, которая собирается привлечь миллионы $ инвестиций
+  ico_start_date: 2018-02-28T00:00:00Z
+  ico_end_date: 2018-03-22T00:00:00Z
+  safe:
+  issue_url: https://github.com/btclexis/x100ico/issues/
+
+
 - name: TxHash
   image: https://i.imgur.com/uNPUR7c.png
   url: https://txhash.com/
@@ -18,62 +110,29 @@
   issue_url: https://github.com/btclexis/x100ico/issues/4
 
 
-- name: Nexo
-  image: https://i.imgur.com/DrLqRYG.jpg
-  url: https://nexo.io/
-  real_team:
-  real_customers:
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
-  transparent:
-  location:
-  comments:
-    - content: Идет проверка
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/issues/#
-
-
 - name: Mainframe
   image: https://i.imgur.com/Ln6COOt.jpg
   url: https://mainframe.com
   real_team: true
   real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company:
+  smart_contract: 
+  product: 
+  tokenomics: 
+  have_company: 
   transparent:
   location: United States
   comments:
     - content: Идет проверка
-  ico_start_date: 
+    - content: +Реальный Юзкейс для токенов - "operation of decentralized network" Будут поощрать держателей Майнфрейм нод за (packet routing, packet holding, file storage, database storage)
+    - content: +детальная Белая бумага, четкий веб-сайт
+    - content: -четкие майлстоуны в RoadMap, однако нет точных даты, когда команда собирается их достичь
+  ico_start_date: TBA
   ico_end_date:
   safe:
-  issue_url: https://github.com/btclexis/x100ico/issues/
+  issue_url: https://github.com/btclexis/x100ico/issues/6
 
 
-- name: Origin Protocol
-  image: https://i.imgur.com/ZzrzwEM.jpg
-  url: https://www.originprotocol.com
-  real_team: true
-  real_customers: 
-  smart_contract:
-  product:
-  tokenomics:
-  have_company: true
-  transparent:
-  location: United States
-  comments:
-    - content: Идет проверка
-    - content: Токен-экономика и Terms еще не опубликованы
-  ico_start_date: 
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/issues/
+
 
 - name: Atonomi
   image: https://i.imgur.com/8kn8hF1.jpg
@@ -112,22 +171,21 @@
   safe:
   issue_url: https://github.com/btclexis/x100ico/issues/
 
-  
-- name: Seele
-  image: https://i.imgur.com/JZXm0lQ.jpg
-  url: https://seele.pro
-  real_team: 
+- name: Origin Protocol
+  image: https://i.imgur.com/ZzrzwEM.jpg
+  url: https://www.originprotocol.com
+  real_team: true
   real_customers: 
   smart_contract:
   product:
   tokenomics:
-  have_company:
+  have_company: true
   transparent:
-  location:
+  location: United States
   comments:
     - content: Идет проверка
-    - content: Админ телеграм чата украл $2млн в ETH у сообщества
-  ico_start_date:
+    - content: Токен-экономика и Terms еще не опубликованы
+  ico_start_date: 
   ico_end_date:
   safe:
   issue_url: https://github.com/btclexis/x100ico/issues/

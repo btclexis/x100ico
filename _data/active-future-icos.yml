@@ -1,63 +1,49 @@
 # Указывай полные имя Стран. Все страны здесь: https://semantic-ui.com/elements/flag.html
-- name: GoNetwork
-  image: https://i.imgur.com/XhAQdHY.jpg
-  url: https://gonetwork.co/
-  real_team: true
-  real_customers: 
-  smart_contract: false
-  product: false
-  tokenomics: false
-  have_company: false
-  transparent: false
-  location: Canada
-  comments:
-    - content: Основатель не отвечает на вопросы инвесторов. Игнор.
-    - content: Со-основатель Xun Cai возможно не работает над проектов фултайм.
-  ico_start_date:
-  ico_end_date:
-  safe: false
-  issue_url: https://github.com/btclexis/x100ico/issues/3
+# 2й этап проверки
 
-- name: YGGDRASH
-  image: https://i.imgur.com/jTpqWxB.jpg
-  url: https://yggdrash.io/
-  real_team:
-  real_customers: 
-  smart_contract:
-  product: false
-  tokenomics: false
-  have_company: true
-  transparent:
-  location: Singapore
-  comments:
-    - content: Проверить команду 
-    - content: Компания AKASHIC FOUNDATION LTD. зарегана в Сингапуре
-    - content: Релиз тестНета только в  Q3 2018 | MainNet в Q2 2019
-    - content: Вестинг для команды больше 1 года 
-    - content: Смарт контракт еще не написан 
-    - content: Пре-сейл 12го Марта - 16е Марта
-    - content: Основное ICO 19го Марта - 23е Марта
-  ico_start_date: 2018-03-12T11:00:00Z
-  ico_end_date: 2018-03-23T11:00:00Z
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/issues/2
-  
-- name: Endor
-  image: https://i.imgur.com/JoIgfZZ.jpg
-  url: https://www.endor.com
+- name: Holo
+  image: https://i.imgur.com/NO3d4q7.png
+  url: https://holo.host/ico/
   real_team: true
   real_customers: 
-  smart_contract:
-  product: false
-  tokenomics: false
+  smart_contract: true
+  product: true
+  tokenomics: 
   have_company: true
-  transparent:
+  transparent: true
   location: Gibraltar
   comments:
-    - content: Продукт не имеет никакого отношения к блокчейн. Не готов тестНет 
-    - content: Токеномика опубликована, но нет вестинга для команды и ключевых Адвизоров
-    - content: Только 20% токенов веделили на  Private Sale и Crowd-Sale
-  ico_start_date:
-  ico_end_date:
-  safe:
-  issue_url: https://github.com/btclexis/x100ico/issues/1
+    - content: Отлжили дату ICO. Обновления на сайте
+      url: https://holo.host/ico/
+    - content: +Новая децетрализированная платформа 
+    - content: +-Нет вестинга, но команде будут платить Holo-топливом, которые нельзя обменять пока работает платформа. Holo-fuel временные и будут "уничтожены" после запуска платформы
+    - content: Резидентам из США, Южной Кореи, Китая - нелья участвовать в их ICO 
+    - content: +Команда полностью открыта и честно отвечали на вопросы в Телеге 
+  ico_start_date: 2018-02-22T11:00:00Z
+  ico_end_date: 2018-03-23T11:00:00Z
+  safe: false
+  issue_url: https://github.com/btclexis/x100ico/issues/7
+
+  
+- name: FundRequest
+  image: https://i.imgur.com/jNolXfq.png
+  url: https://register.fundrequest.io/
+  real_team: true
+  real_customers: 
+  smart_contract: true
+  product: true
+  tokenomics: true
+  have_company: true
+  transparent: true
+  location: Estonia
+  comments:
+    - content: Вестинг для команды 2 года с 6мес клиффом. Для Адвизоров 6мес и 3 мес клиффом.
+    - content: Hard Cap 15млн USD сообирается в ETH что равняется 1800 FND/ETH
+    - content: Вайтлист закрыт 25го Января 2018. Только попавшие в Вайт-лист могут участвовать
+    - content: Продажа токенов будет 2 дня. 12/02/2018 - в течении 24 часов можно будет купить от 0.01 до 1 ETH. На следующий день 13/02/2018 - безлимит до тех пор, пока не соберется капа в 6000 ETH.
+    - content: Со-основатель был полностью открытым при общении, когда ему задавали вопросы
+  ico_start_date: 2018-02-12T11:00:00Z
+  ico_end_date: 2018-02-13T11:00:00Z
+  safe: true
+  issue_url: https://github.com/btclexis/x100ico/issues/
+
